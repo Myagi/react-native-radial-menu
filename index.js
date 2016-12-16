@@ -1,12 +1,12 @@
 'use strict';
 
-var React = require('react-native');
+var React = require('react');
 var {
   Animated,
   PanResponder,
   StyleSheet,
   View,
-} = React;
+} = require('react-native');
 
 function generateRadialPositions(count, radius, spread_angle, start_angle) {
 	var span = spread_angle < 360 ? 1 : 0;
